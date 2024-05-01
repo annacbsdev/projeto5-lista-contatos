@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
+import img from '../assets/background.jpg'
 import _var from './var'
 
 const EstiloGlobal = createGlobalStyle`
@@ -10,7 +11,7 @@ const EstiloGlobal = createGlobalStyle`
     list-style: none;
   }
   body{
-    background-color: ${_var.verde}
+    background-image: url(${img})
   }
 
 `
